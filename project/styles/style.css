@@ -1,0 +1,232 @@
+html,
+body,
+.Container {
+	font-size: 15px;
+	font-family: 'Calibri';
+	color: #3a0463;
+	height: 100%;
+	margin:0;
+	padding:0;
+}
+
+body {
+	background-color: #D8BFD8;
+}
+
+.logo {
+	width: 5%;
+	height:auto;
+}
+
+.logoline {
+	text-align: center;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.tagline {
+	text-align: center;
+	font-size: 1rem;
+	font-family: 'Lucida Console';
+}
+
+.logoHeader {
+	padding:10px;
+	width: 100%;
+	position:relative;
+}
+
+.input-right {
+	position: absolute;
+	top: 15px;
+	right: 10px;
+}
+
+.btn {
+	border-radius: 0;
+}
+
+.div-main {
+	background-color: #d99ad9;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	padding:5px;
+}
+
+.p-message {
+	margin-left: 50px;
+}
+
+.p-error {
+	margin-left: 50px;
+	color: red;
+}
+
+.div-login {
+	background-color: #d99ad9;
+	margin: auto;
+	padding:5px;
+	align:center;
+	vertical-align: middle;
+	align-content: center;
+	position: absolute;
+	 top: 40%;
+	 left: 40%;
+	 margin-top: -50px;
+	 margin-left: -50px;
+	 width: 400px;
+	 height: 220px;
+}
+
+a:link,
+a:hover,
+a:visited {
+	color: #800000;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 3.5rem;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+	text-align: center;
+}
+
+ul.circle {
+  list-style-type: circle;
+}
+
+ul.no_bullet {
+  list-style-type: none;
+}
+
+.list-item {
+	list-style-type: circle;
+}
+
+p {
+	color: #000;
+	font-size: 1.2rem;
+}
+
+.header {
+  text-align: center;
+  background: #4d73f0;
+  color: #d99ad9;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #D8BFD8;
+  color: #3a0463;
+  text-align: center;
+}
+
+.design-by {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.val-ctrl {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.ul-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #BA55D3;
+}
+
+.li-menu {
+  float: left;
+}
+
+.li-a-menu {
+  display: block;
+  color: #FFEFD5;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #DDA0DD;
+}
+
+.active {
+  background-color: #DDA0DD;
+}
+
+.img-container {
+	display: float;
+	align-items: left;
+}
+.image {
+	max-width: 100%;
+	max-height: 100%
+}
+.text {
+	font-size: 20px;
+	padding-left: 40px;
+}
+
+.ribbon {
+    font: bold 15px sans-serif;
+    color: #333;
+    text-align: center;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform:    rotate(-45deg);
+    -ms-transform:     rotate(-45deg);
+    -o-transform:      rotate(-45deg);
+    position: relative;
+    padding: 7px 0;
+    top: 25px;
+    left: 10px;
+    width: 70px;
+    background-color: #ebb134;
+    color: #fff;
+  }
+
+.UMLTable {
+    width: 100%;
+		font-size: 14px;
+}
+
+.UMLTable th {
+    text-align: left;
+    padding: 8px;
+		background-color: #7700b3;
+		color: white;
+}
+
+.UMLTable td {
+    text-align: left;
+    padding: 8px;
+}
+
+.UMLTable tr:nth-child(odd) {
+    background-color: #c44dff;
+}
+
+.UMLTable tr:nth-child(even) {
+    background-color: #dd99ff;
+}
